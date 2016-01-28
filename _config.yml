@@ -3,7 +3,7 @@ title: Wise Owl Tutoring
 email: info@wiseowltutoring.net
 description: > # this means to ignore newlines until "baseurl:"
     Wise Owl Tutoring in Winter Park, FL provides affordable one-on-one tutoring and test prep to students of all ages - middle school through the college level.
-baseurl: "/wiseowltutoring" # the subpath of your site, e.g. /blog/
+baseurl: "http://erictrose.github.io/" # the subpath of your site, e.g. /blog/
 url: "http://wiseowltutoring.net" # the base hostname & protocol for your site
 twitter_username: wiseowltutoring
 github_username:
