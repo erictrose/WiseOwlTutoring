@@ -1,2 +1,5 @@
-# WiseOwlTutoring
-A student project for Design Patterns for Web Programming :white_medium_square:
+Wise Owl Tutoring
+==========
+A student project with Jekyll
+
+http://erictrose.github.io/wiseowltutoring/

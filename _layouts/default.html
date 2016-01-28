@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
+    
+    {% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-
+    <body class="{{ page.my-test }}">
+   
     {% include header.html %}
-
+    
+         {% if page.homepage %}
+             {% include cta.html %}
+         {% else %}
+             {% include cta-small.html %}
+         {% endif %}
+    
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
@@ -15,6 +21,6 @@
 
     {% include footer.html %}
 
-  </body>
+    </body>
 
 </html>

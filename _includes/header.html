@@ -1,8 +1,18 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+   
+   <a href="{{ site.baseurl }}/">
+   <img class="header-image slideExpandUp" src="{{ site.baseurl }}{{ site.logo }}">
+   </a>
+   
+    <a class="site-title" id="header-icon" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    
+<!--    <p class="call-today">call today! (407) 678-4945</p>-->
+    
+    <a href="tel://1-407-678-4945"><p class="call-today">call today! (407) 678-4945</p></a>
+    
+    {% include alert.html %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,14 +24,47 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+       
+       <ul class="nav-list">
+            <a href="{{ site.baseurl }}/"><li>HOME</li></a>
+            <a href="{{ site.baseurl }}/about/"><li>ABOUT</a>
+                <ul>
+                    <a href="{{ site.baseurl }}/about/tutoring-services/"><li>TUTORING SERVICES</li></a>
+                    <a href="{{ site.baseurl }}/about/testimonials/"><li>TESTIMONIALS</li></a>
+                    <a href="{{ site.baseurl }}/about/location/"><li>LOCATION</li></a>
+                    <a href="{{ site.baseurl }}/about/faq/"><li>FAQ</li></a>
+                    <a href="{{ site.baseurl }}/about/our-tutors/"><li>OUR TUTORS</li></a>
+                    <a href="{{ site.baseurl }}/about/affordable-rates/"><li>AFORDABLE RATES</li></a>
+                    <a href="{{ site.baseurl }}/about/resources/"><li>RESOURCES</li></a>
+                </ul></li>
+            <a href="{{ site.baseurl }}/subject-tutoring/"><li>SUBJECT TUTORING</a>
+                <ul>
+                    <a href="{{ site.baseurl }}/subject-tutoring/math/"><li>MATH</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/science"><li>SCIENCE</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/ap-classes/"><li>AP CLASSES</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/foreign-language"><li>FOREIGN LANGUAGE</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/history/"><li>HISTORY</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/reading_writing/"><li>READING WRITING</li></a>
+                </ul></li>
+            <a href="{{ site.baseurl }}/test-prep/"><li>TEST PREP</a>
+                <ul>
+                    <a href="{{ site.baseurl }}/test-prep/sat-psat/"><li>SAT/PSAT</li></a>
+                    <a href="{{ site.baseurl }}/test-prep/act/"><li>ACT</li></a>
+                    <a href="{{ site.baseurl }}/test-prep/other-test-prep/"><li>OTHER TEST PREP</li></a>
+                </ul></li>
+            <a href="{{ site.baseurl }}/group-classes/"><li>GROUP CLASSES</a>
+               <ul>
+                   <a href="{{ site.baseurl }}/group-classes/sat-prep-course/"><li>SAT 8 WEEK CLASS</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/sat-crash-course/"><li>SAT CRASH COURSE</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/act-prep-course/"><li>ACT 8 WEEK CLASS</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/act-crash-course/"><li>ACT CRASH COURSE</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/ap-human-geo-review/"><li>AP HUMAN GEO REVIEW</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/study-skills-class/"><li>STUDY SKILL CLASS</li></a>
+                </ul></li>
+    <a href="{{ site.baseurl }}/make-payment/"><li>MAKE PAYMENT</li></a>
+    <a href="{{ site.baseurl }}/contact/"><li>CONTACT</li></a>
+        </ul>        
       </div>
     </nav>
-
   </div>
-
 </header>

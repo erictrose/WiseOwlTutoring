@@ -1,0 +1,49 @@
+@media screen and (max-width: 745px) {
+    .nav-list li {
+        font-size: 8px;
+    }
+    .call-today {
+        font-size: 16px;
+    }
+    .footer-header {
+        display: none;
+    }
+    .footer-book {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .call-today {
+        display: none;
+    }
+    .site-nav {
+        top: 35px;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .site-title {
+       font-size: 28px;
+    }
+    .footer-book {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .site-title {
+       font-size: 16px;
+    }
+    .site-nav {
+        top: 22px;
+        right: 22px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .site-title {
+       display: none;
+    }
+}
