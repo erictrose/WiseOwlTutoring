@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+    {% include head.html %}
+
+    <body class="{{ page.my-test }}">
+   
+    {% include header.html %}
+    
+         {% if page.homepage %}
+             {% include cta.html %}
+         {% else %}
+             {% include cta-small.html %}
+         {% endif %}
+    
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+
+</html>

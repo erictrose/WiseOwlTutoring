@@ -1,0 +1,70 @@
+<header class="site-header">
+
+  <div class="wrapper">
+   
+   <a href="{{ site.baseurl }}/">
+   <img class="header-image slideExpandUp" src="{{ site.baseurl }}{{ site.logo }}">
+   </a>
+   
+    <a class="site-title" id="header-icon" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    
+<!--    <p class="call-today">call today! (407) 678-4945</p>-->
+    
+    <a href="tel://1-407-678-4945"><p class="call-today">call today! (407) 678-4945</p></a>
+    
+    {% include alert.html %}
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+       
+       <ul class="nav-list">
+            <a href="{{ site.baseurl }}/"><li>HOME</li></a>
+            <a href="{{ site.baseurl }}/about/"><li>ABOUT</a>
+                <ul>
+                    <a href="{{ site.baseurl }}/about/tutoring-services/"><li>TUTORING SERVICES</li></a>
+                    <a href="{{ site.baseurl }}/about/testimonials/"><li>TESTIMONIALS</li></a>
+                    <a href="{{ site.baseurl }}/about/location/"><li>LOCATION</li></a>
+                    <a href="{{ site.baseurl }}/about/faq/"><li>FAQ</li></a>
+                    <a href="{{ site.baseurl }}/about/our-tutors/"><li>OUR TUTORS</li></a>
+                    <a href="{{ site.baseurl }}/about/affordable-rates/"><li>AFORDABLE RATES</li></a>
+                    <a href="{{ site.baseurl }}/about/resources/"><li>RESOURCES</li></a>
+                </ul></li>
+            <a href="{{ site.baseurl }}/subject-tutoring/"><li>SUBJECT TUTORING</a>
+                <ul>
+                    <a href="{{ site.baseurl }}/subject-tutoring/math/"><li>MATH</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/science"><li>SCIENCE</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/ap-classes/"><li>AP CLASSES</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/foreign-language"><li>FOREIGN LANGUAGE</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/history/"><li>HISTORY</li></a>
+                    <a href="{{ site.baseurl }}/subject-tutoring/reading_writing/"><li>READING WRITING</li></a>
+                </ul></li>
+            <a href="{{ site.baseurl }}/test-prep/"><li>TEST PREP</a>
+                <ul>
+                    <a href="{{ site.baseurl }}/test-prep/sat-psat/"><li>SAT/PSAT</li></a>
+                    <a href="{{ site.baseurl }}/test-prep/act/"><li>ACT</li></a>
+                    <a href="{{ site.baseurl }}/test-prep/other-test-prep/"><li>OTHER TEST PREP</li></a>
+                </ul></li>
+            <a href="{{ site.baseurl }}/group-classes/"><li>GROUP CLASSES</a>
+               <ul>
+                   <a href="{{ site.baseurl }}/group-classes/sat-prep-course/"><li>SAT 8 WEEK CLASS</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/sat-crash-course/"><li>SAT CRASH COURSE</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/act-prep-course/"><li>ACT 8 WEEK CLASS</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/act-crash-course/"><li>ACT CRASH COURSE</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/ap-human-geo-review/"><li>AP HUMAN GEO REVIEW</li></a>
+                   <a href="{{ site.baseurl }}/group-classes/study-skills-class/"><li>STUDY SKILL CLASS</li></a>
+                </ul></li>
+    <a href="{{ site.baseurl }}/make-payment/"><li>MAKE PAYMENT</li></a>
+    <a href="{{ site.baseurl }}/contact/"><li>CONTACT</li></a>
+        </ul>        
+      </div>
+    </nav>
+  </div>
+</header>
