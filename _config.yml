@@ -11,8 +11,8 @@ github_username:
 # Build settings
 markdown: kramdown
 
-logo: "/images/wiseowl.png"
-cta: "/images/cta.png"
-cta-small: "/images/cta-small.png"
-bookone: "/images/bookone.png"
-booktwo: "/images/booktwo.png"
+logo: "./images/wiseowl.png"
+cta: "./images/cta.png"
+cta-small: "./images/cta-small.png"
+bookone: "./images/bookone.png"
+booktwo: "./images/booktwo.png"
